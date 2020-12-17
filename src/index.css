@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+table {
+  margin: auto;
+  color: rgb(97, 97, 97);
+  font-family: "Roboto", sans-serif;
+}
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+}
+tr td,
+tr th {
+  width: 18rem;
+}
+tr {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.users-table .header-row {
+  background-color: #ccc;
+  font-size: 1.3rem;
+}
+.users-table .body-row {
+  background-color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.posts-btn {
+  width: 100%;
+  height: 3rem;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  background-color: #639620;
+}
+.posts-table .header-row {
+  background-color: #ccc;
+  font-size: 1.3rem;
+}
+.posts-table .body-row {
+  background-attachment: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.details-btn {
+  width: 50%;
+  height: 4rem;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 2rem;
+  outline: none;
+  background-color: #639620;
+}
+.post-table .header-row {
+  background-color: #ccc;
+  font-size: 1.3rem;
+}
+.post-table .body-row {
+  background-attachment: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
